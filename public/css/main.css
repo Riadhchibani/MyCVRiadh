@@ -1,0 +1,252 @@
+
+div#firstrow {
+    background-color: red;
+}
+
+img#logoimg {
+    width: 17%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+p#wel {
+    font-size: 213%;
+    color: white;
+}
+
+p#ptitle {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+img#imgsize {
+    width: 90px;
+}
+
+body#index {
+    background: url(../img/img1.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+button#profile{
+    margin-right: 3px;
+}
+
+body#contactbody {
+    background: url(../img/form1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+label#contactlabel {
+    color: white;
+}
+
+tr {
+    width: 20%;
+    height: 20%;
+}
+
+body#profilebody {
+    background: url(../img/backpro.jpg) fixed no-repeat;
+}
+h1#title {
+    padding-left: 3%;
+    color: white;
+}
+
+img#imgShtml5 {
+    width: 16%;
+    position: relative;
+    left: 16%;
+}
+
+img#imgScss {
+    width: 33%;
+    position: relative;
+    left: 21%;
+}
+
+img#imgSjs {
+    width: 12%;
+    position: relative;
+    left: 23%;
+}
+
+img#imgSboo {
+    width: 20%;
+    position: relative;
+    left: 33%;
+}
+
+img#imgSts {
+    width: 9%;
+    padding-left: 3%;
+}
+
+img#imgSsql {
+    width: 16%;
+    padding-left: 3%;
+}
+div.navfixed{
+    position: fixed;
+}
+div#html{
+    width: 58%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 58%;
+    }
+}
+div#css{
+    width: 63%;
+    animation: css 2s;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 63%;
+    }
+}
+div#js{
+    width: 60%;
+    animation: js 3s;
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+div#dom{
+    width: 65%;
+    animation: dom 2s;
+}
+@keyframes dom{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+div#jq{
+    width: 48%;
+    animation: jquery 3s;
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 48%;
+    }
+}
+div#ts{
+    width: 25%;
+    animation: typescript 4s;
+}
+@keyframes typescript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+div#sq{
+    width: 20%;
+    animation: mysql 2s;
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+div#c{
+    width: 70%;
+    animation: c 2s;
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+div#cpp{
+    width: 55%;
+    animation: cpp 2s;
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+div#boo{
+    width: 85%;
+    animation: boo 2s;
+}
+@keyframes boo{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+h3{
+    color: white;
+}
+.Sskills{
+    padding-top: 10%;
+}
+img#imgsele{
+    width: 50%;
+}
+nav.navbarpo{
+    position: fixed;
+}
+button#btntop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5%;
+    box-shadow: 4px 9px 30px black;
+}
+#imgs{
+    width: 75%;
+    position: absolute;
+    top: -285%;
+    left: 133%;
+    border-radius: 2%;
+}
+footer{
+    background-color: black;
+}
+center{
+    color: rgb(88, 88, 88);
+}

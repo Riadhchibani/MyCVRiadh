@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Riadh</title>
+</head>
+
+<body id="contactbody">
+    <nav class="navbar navbar-dark" style="background-color: rgb(22, 22, 22);">
+        <div class="col-4">
+            <img id="logoimg" src="img/logo.jpg">
+        </div>
+        <div class="col-4">
+            <p id="wel">Welcome</p>
+        </div>
+        <div class="nav justify-content-end">
+            <button type="button" class="btn btn-outline-light" id="profile">Profile</button>
+            <button type="button" class="btn " style="background-color:  rgb(22, 22, 22);color: white;"  id="contact">Contact</button>
+        </div>
+    </nav><br><br>
+    <div class="container">
+        <form action="" method="POST">
+            <div class="col-6 offset-3">
+                <label id="contactlabel" for="First name">First name</label>
+                <input type="text" class="form-control" id="FN" name="Fname" placeholder="First name">
+            </div>
+            <div class="col-6 offset-3">
+                <label id="contactlabel" for="Last name">Last name</label>
+                <input type="text" class="form-control" id="LN" name="Lname" placeholder="Last name">
+            </div>
+            <div class="col-6 offset-3">
+                <label id="contactlabel" for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" placeholder="@Email">
+            </div>
+    </div>
+    <div class="col-6 offset-3">
+        <label id="contactlabel" for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="text" rows="3" name="message" placeholder="..."></textarea>
+    </div><br>
+    <div class="col-5 offset-3" id="mess"></div>
+    <br>
+    <div class="col-6 offset-3">
+        <button type="submit" class="btn btn-secondary btn-lg btn-block" id="send">Send</button>
+        <button type="button" class="btn btn-outline-light btn-lg btn-block" id="clear">Clear</button>
+    </div>
+    </form>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
